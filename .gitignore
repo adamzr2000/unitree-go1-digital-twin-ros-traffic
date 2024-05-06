@@ -1,0 +1,11 @@
+# Ignore all bag files in ros_bags directory
+ros_bags/*.bag
+
+# But keep the README.md in ros_bags directory
+!ros_bags/README.md
+
+# Ignore all bag files in pcaps directory
+pcaps/*.pcap
+
+# But keep the README.md in pcaps directory
+!pcaps/README.md
