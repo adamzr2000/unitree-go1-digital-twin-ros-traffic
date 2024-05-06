@@ -8,6 +8,16 @@ Additionally, it provides a PCAP file that can be replayed using tools such as t
 
 ## Usage
 
+### Extract Files
+
+To extract the downloaded files, run the following command:
+
+```sh
+./extract_files.sh
+```
+
+This script will extract the files from zip folder and move the PCAP files to the `pcaps` directory and the ROS bag files to the `ros_bags` directory.
+
 ### ROS Bag Replay
 
 1. **Build the Docker container:**
