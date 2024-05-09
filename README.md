@@ -55,10 +55,10 @@ Navigate to the `pcaps` directory and run `tcpreplay` command with appropriate p
 
 ```sh
 cd pcaps
-sudo tcpreplay-edit --mtu-trunc -i <interface> -l 0 dt_service_traffic.pcap
+sudo tcpreplay-edit --mtu-trunc -i <interface> -l 0 <pcap-file>.pcap
 ```
 
-Replace `<interface>` with the network interface through which you want to generate the traffic.
+Replace `<interface>` with the network interface through which you want to generate the traffic, and `<pcap-file>` with the filename of the pcap file you wish to replay.
 
 If you don't have tcpreplay installed, you can install it using the following command:
 
