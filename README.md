@@ -66,6 +66,20 @@ If you don't have tcpreplay installed, you can install it using the following co
 sudo apt install tcpreplay
 ```
 
+### Flannel-VXLAN-Wireshark-parser
+
+Flannel is a Kubernetes network plugin that uses a VXLAN overlay network. 
+
+This repository offers a Wireshark parser script for analyzing Flannel traffic.
+
+Instructions to use this plugin (Ubuntu)
+-----------------------------------------
+1. Wireshark menu → Help → About Wireshark→ Folders
+2. Save the [vxlan_flannel.lua](./vxlan_flannel.lua) script in the Global Plugins folder
+3. Run Wireshark
+4. Use “vxlan_flannel” as a filter
+
+
 
 
 
